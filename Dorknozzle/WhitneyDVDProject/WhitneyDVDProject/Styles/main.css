@@ -1,0 +1,364 @@
+﻿* {
+    font-family: Calibri;
+}
+
+body {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 5px solid #49927F;
+    background-image: url("/Images/flowers.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:top;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+}
+
+.divider {
+    margin-left: 0;
+    width: 650px;
+    padding-top: 5px;
+}
+
+.footer {
+    font-size: x-small;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+h1, h2 {
+    color: #49927F;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+}
+
+h3 {
+    color: #6E4281;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+}
+
+div {
+    text-align: center;
+}
+
+.NavBar {
+    background-color: #91B180;
+    border-bottom: 5px solid #49927F;
+    height: 45px;
+    margin-bottom: 0;
+}
+
+.NavLogo {
+    vertical-align: top;
+    width: 100px;
+    margin-right: 0px;
+}
+
+hr {
+    width: 645px;
+    height: 1px;
+    border-width: 0;
+    background-color: #49927F;
+    margin-left: 0px;
+    
+}
+
+.SiteMap {
+    list-style: none;
+}
+
+.MainContent {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(255, 204, 128, .75);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.NavMenu {
+    font-size: 16pt;
+    vertical-align: top;
+    position:relative;
+    float: left;
+    line-height: 0px;
+    width: 450px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+}
+
+.NavMenu ul {
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+.NavMenu a:link {
+    color: #FFCC80;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.NavMenu li a:hover {
+    color: #96558B;
+}
+
+.NavMenu li {
+    display: inline;
+    list-style: none;
+}
+
+.NavMenu a:visited {
+    color: #6E4281;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.NavTable {
+    height: 45px;
+    width: 700px;
+    vertical-align: top;
+}
+
+/* social links
+----------------------------------------------------------*/
+#NavSocial {
+    padding-top: 10px;
+    padding-left: 0px;
+    vertical-align: top;
+}
+
+#NavSocial a {
+    background: none;
+    padding-right: 2px;
+}
+
+#NavSocial a:hover {
+    color: #96558B;
+}
+
+#title, #artist, #rating, #price {
+    display: inline;
+}
+
+#title {
+    font-size: larger;
+    color: #6E4281;
+    text-align: center;
+}
+
+#artist, #rating, #pricelabel {
+    text-align: center;
+    font-size: 10pt;
+}
+
+#price {
+    color: #96558B;
+}
+
+.blurb {
+    color: #6E4281;
+    font-size:medium;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding-top: 0;
+}
+
+.addcontent {
+    text-align: left;
+}
+
+.widelabel {
+    text-align: left;
+    width: 120px;
+    display: inline-block;
+    color: #6E4281;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+#dbErrorLabel, .dbErrorLabel {
+    color: red;
+    font-size: small;
+}
+
+.Button {
+    border: 4px solid #6E4281;
+    background-color: #FEFECC;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: larger;
+    color: #96558B;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.moviesList {
+    border: 4px solid #6E4281;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 5px;
+    color: #49927F;
+    -webkit-appearance: none;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding-left: 4px;
+}
+
+.selectmovieLabel {
+    color: #6E4281;
+    font-weight: bold;
+    font-size: 15pt;
+    padding-right: 15px;
+}
+
+.selectsection {
+    text-align: left;
+    padding-left: 50px;
+}
+
+#selectmovieButton {
+    float: right;
+    margin-right: 50px;
+}
+
+.textbox {
+    font-size: 12pt;
+    border: 1px solid #6E4281;
+    margin-bottom: 2px;
+    padding-left: 4px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.nametextbox {
+    font-size: 12pt;
+    border: 1px solid #6E4281;
+    margin-bottom: 2px;
+    padding-left: 4px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.custnumtextbox {
+    font-size: 12pt;
+    border: 1px solid #6E4281;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    width: 50px;
+    padding-left: 5px;
+}
+
+.dvdlinkButton {
+    color: #91B180;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+a:visited {
+    color: #6E4281;
+}
+
+a:hover {
+    color: #49927F;
+}
+
+.movielabel {
+    font-size: x-large;
+    font-weight: bold;
+    color: #49927F;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.price {
+    color: #6E4281;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.custnum {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.dvdRepeater {
+    text-align: center;
+    margin-left: 15px;
+}
+
+.image {
+    float: right;
+    margin-right: 25px;
+    margin-left: 10px;
+    margin-top:50px;
+    border-radius: 20px;
+    border: 4px solid #49927F;
+}
+
+.descriptionLabel {
+    float: left;
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 15px;
+    width: 430px;
+    text-align: justify;
+}
+
+.DoneButton {
+    border: 4px solid #6E4281;
+    background-color: #FEFECC;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: larger;
+    color: #96558B;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    margin-left: 45%;
+    margin-right: 50%;
+}
+
+.descriptionTextbox {
+    width: 253px;
+    border-radius: 5px;
+    border: 1px solid #6E4281;
+    overflow:auto;
+}
+
+.moviedetails {
+    text-align: left;
+    margin-left: 170px;
+}
+
+.customersRepeater {
+    margin-left: 15px;
+}
+
+.ordersRepeater {
+    text-align: center;
+    margin-left: 15px;
+}
+
+.datalistheader {
+    color: #6E4281;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+}
+
+.custname {
+    text-align: left;
+    margin-left: 250px;
+}

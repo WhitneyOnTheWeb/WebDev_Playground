@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" runat="server">
+<head runat="server">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="/Styles/main.css" runat="server" />
+    <title>Bee Movies - By Whitney King</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .menu {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+        <div class="NavBar">
+            <asp:Table CssClass="NavTable" runat="server">
+                <asp:TableRow runat="server">
+                    <asp:TableCell CssClass="NavLogo">
+                    <img src="/Images/sitelogo.png" />
+                    </asp:TableCell>
+                    <asp:TableCell CssClass="NavMenu">
+                    <asp:Menu  runat="server" CssClass="menu"
+                               EnableViewState ="false" IncludeStyleBlock="false">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Home.aspx" Text="Home   " />
+                        <asp:MenuItem Text=" |   " />
+                        <asp:MenuItem NavigateUrl="~/Admin/AddDVD.aspx" Text="Add DVD   " />
+                        <asp:MenuItem Text=" |   " />
+                        <asp:MenuItem NavigateUrl="~/Admin/EditDVD.aspx" Text="Edit DVD   " />
+                        <asp:MenuItem Text=" |   " />
+                        <asp:MenuItem NavigateUrl="~/Admin/Reports.aspx" Text="Reports" />
+                    </Items>
+                    </asp:Menu>
+                    </asp:TableCell>
+                    <asp:TableCell ID="NavSocial">
+                    <a href="https://www.facebook.com/whitneyontheweb" target="_blank">
+                        <img src="/Images/Facebook.png" alt="Facebook" title="" width="22" height="22" /></a>
+                    <a href="https://www.linkedin.com/pub/whitney-king/10/923/27b" target="_blank">
+                        <img src="/Images/Linkedin.png" alt="LinkedIn" title="" width="22" height="22" /></a>
+                    <a href="mailto:whitney@whitneyontheweb.com">
+                        <img src="/Images/Email.png" alt="Contact" title="" width="22" height="22" /></a>
+                    </asp:TableCell>
+                </asp:TableRow>
+            </asp:Table>
+        </div>
+        <div class="MainContent">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <span class="footer">&copy; <%: DateTime.Now.Year %> Whitney King: PROG 117</span>
+            <br />
+            <br />
+        </div>
+    </form>
+</body>
+</html>
