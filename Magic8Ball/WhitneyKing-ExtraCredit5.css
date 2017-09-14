@@ -1,0 +1,60 @@
+﻿/*Whitney King - Extra Credit 5 */
+
+body{
+	background-color:navy;
+	font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	}
+
+header{
+	text-align:center;
+	font-size:x-large;
+	color:white;
+	background-color:black;
+	border:5px black solid;
+	margin-left:10%;
+	margin-right:10%;
+	font-weight:bolder;
+	}
+	
+#answer{
+	color:black;
+	margin-right:30%;
+	font-weight:lighter;
+	font-size:small;
+	}
+	
+#background{
+	border:5px black solid;
+	background-color:maroon;
+	color:black;
+	margin-left:25%;
+	margin-right:25%;
+}
+
+#image{
+	height:100%;
+	width:100%;
+}
+
+#eightball{
+	margin-right:2%;
+	margin-left:50%;
+	margin-bottom:2%;
+	text-align:right;
+	}
+
+#response{
+	padding-left:36px;
+}
+		
+#question{
+	border:5px black solid;
+	background-color:white;
+	color:black;
+	border-top:0px;
+	margin-left:10%;
+	margin-right:10%;
+	font-weight:bolder;
+	padding-left:36px;
+	padding-right:2%;
+	}
