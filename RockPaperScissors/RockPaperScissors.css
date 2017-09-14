@@ -1,0 +1,85 @@
+/* Whitney King - Project 2 */
+/* Rock, Paper, Scissors */
+
+#background{
+	border:5px black solid;
+	background-color:#3399CC;
+	color:black;
+    width:270px;
+	margin-left:10%;
+}
+
+/*body{
+	background-color:#e1b9d5;
+    background-image: url(Background.png); 
+	font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	}*/
+
+.image{
+    background-color:white;
+	margin-left:35%;
+	margin-right:30%;
+}
+
+#paper{
+    margin-left: 37%
+}
+			
+#playArea{
+	border:5px black solid;
+	background-color:white;
+	color:black;
+	margin-left:10%;
+	margin-right:10%;
+	text-align:center;
+}
+
+#results{
+    border-bottom: 0px;  
+}
+
+#rock{
+    margin-left: 32%
+}
+
+#roundsRemaining{
+    font-size:20pt;
+    font-family: "comic sans ms", "courier new", tahoma;
+}
+
+#scissors{
+    margin-left: 35%
+}
+
+table{
+    border:5px black solid;
+}
+
+td{
+    background-color: white;
+    text-align:center;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: "comic sans ms", "courier new", tahoma;
+}
+
+th{
+    background-color: #990066;
+    color: white;
+    text-align:center;
+    width:45px;
+}
+
+#title{
+	text-align:center;
+	color:white;
+	background-color:#990066;
+	border:5px black solid;
+    border-bottom: 0px;
+	margin-left:10%;
+	margin-right:10%;
+	}
+
+#you{
+ width: 75px;   
+}

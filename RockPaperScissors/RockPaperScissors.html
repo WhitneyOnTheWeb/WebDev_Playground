@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html>
+    <!--Whitney King - Project 2-->
+    <!-- Rock, Paper, Scissors  -->
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" 
+              href="RockPaperScissors.css">
+		<title>Rock, Paper, Scissors</title>
+	</head>
+     <body>
+    	<section id="javascript">
+			<script type="text/javascript" 
+                    src="RockPaperScissors.js"></script>
+		</section>
+        <div id="background">
+    		<br />
+			<header id="title"><img src="RPS.png" width="125"></header>
+             <section id="playArea">
+				<section id="score" style="DISPLAY: none">
+                    <table>
+                        <tr>
+                            <th><img src="Wins.png" width="60"></th>
+                            <th><img src="Ties.png" width="53"></th>
+                            <th><img src="Losses.png" width="70"></th>
+                        </tr>
+                        <tr>
+                            <td id="totalWins"></td>
+                            <td id="totalTies"></td>
+                            <td id="totalLosses"></td>
+                        </tr>
+                    </table>
+                </section>
+				<section id="info">
+                    <br />
+                    <img src="StartButton.png" width="100" alt="Start Button" onmousedown = "src='StartButtonPress.png'" onmouseup = "src='StartButton.png'" onclick = "window.start()">
+				    <br />
+                    <br />
+                </section>
+                <section id="choices" style="DISPLAY: none">
+                    <img src="Rock.png" id="Rock" width="60" class="image" onmouseover = "src='RockHover.png'" onmouseout = "src='Rock.png'" onmousedown = "src='Rock.png'" onmouseup = "src='RockHover.png'" onclick = "rockClick()" style="DISPLAY: none">
+                    <img src="Paper.png" id="Paper" width="60" class="image" onmouseover = "src='PaperHover.png'" onmouseout = "src='Paper.png'" onmousedown = "src='Paper.png'" onmouseup = "src='PaperHover.png'" onclick = "paperClick()" style="DISPLAY: none">
+                    <img src="Scissors.png" id="Scissors" height="60" class="image" onmouseover = "src='ScissorsHover.png'" onmouseout = "src='Scissors.png'" onmousedown = "src='Scissors.png'" onmouseup = "src='ScissorsHover.png'" onclick = "scissorsClick()" style = "DISPLAY: none">
+                    <br />
+                    <table id="results">
+                        <tr>
+                            <th><img src="You.png" width="92"></th>
+                            <th><img src="Computer.png" width="95"></th>
+                        </tr>
+                        <tr>
+                            <td id="You"></td>
+                            <td id="Computer"></td>
+                        </tr>
+                    </table>
+                </section>
+                <section id="replay" style="DISPLAY: none">
+                    <br />
+                    <img src="ReplayButton.png" width="100" alt="Replay Button" onmousedown="src='ReplayButtonPress.png'" onmouseup="src='ReplayButton.png'" onclick="window.start()">
+				    <br />
+                </section>
+                <section id="rounds" style="DISPLAY: none">
+                    <table width="207" style="border-bottom:0px">
+                        <tr>
+                            <th width="150"><img src="Rounds.png" width="125"></th>
+                            <td width="25" id="roundsRemaining"></td>
+                        </tr>
+                    </table>
+                </section>
+			</section>
+             <br />
+        </div><style type="text/css">
+body {
+    overflow:hidden;
+}
+</style>
+     </body>
+</html>
